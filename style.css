@@ -173,3 +173,15 @@ button.button {
     padding: 5px 35px;
     font-size: 18px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer-text {
+    padding: 16px;
+}
