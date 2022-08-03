@@ -107,3 +107,24 @@ img {
     text-align: center;
     color: #1f2937;
 }
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-text {
+    align-self: center;
+    max-width: 790px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-signature {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+}
