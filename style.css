@@ -128,3 +128,48 @@ img {
     display: flex;
     flex-direction: row-reverse;
 }
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 100px;
+}
+
+.modal-title {
+    display: flex;
+    align-items: flex-end;
+    font-size: 24px;
+    color: white;
+}
+
+.modal-text {
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    padding: 0;
+}
+
+.modal-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+button.button {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 5px 35px;
+    font-size: 18px;
+}
