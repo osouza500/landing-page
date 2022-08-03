@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Roboto, "Times New Roman", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
