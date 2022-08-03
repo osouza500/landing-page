@@ -7,13 +7,15 @@ body {
     font-family: Roboto, "Times New Roman", sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1F2937
+    background-color: #1F2937;
+    padding: 5px 0;
 }
 
 .logo {
@@ -36,4 +38,45 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: lighter;
+}
+
+.subheader-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    column-gap: 30px;
+    background-color: #1f2937;
+}
+
+.title {
+    max-width: 350px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: -10px;
+}
+
+.text {
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+    padding: 10px 0;
+}
+
+button {
+    background-color: #3882f6;
+    text-align: center;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    padding: 5px 35px;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+img {
+    max-width: 335px;
+    height: auto;
 }
